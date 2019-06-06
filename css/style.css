@@ -30,5 +30,15 @@ body{
     height: 600px;
     border : 10px solid wheat;
     background-color: white;
+    color:white;
+    position: relative;
     
+}
+.smallRadius{
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
 }
