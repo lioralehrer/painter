@@ -1,5 +1,5 @@
 var canvas = document.getElementById("canvas");
-var drawingColor = "white";
+var drawingColor = "black";
 var brush = "mediumBrush";
 function changeBrush(element) {
     console.log(element);
