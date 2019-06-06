@@ -20,7 +20,7 @@ function startBrush() {
 }
 startBrush();
 function startTheColors() {
-    let arr = ['red', 'blue', 'green', 'yellow', 'black', 'blueviolet'];
+    let arr = ['red', 'blue', 'green', 'yellow', 'black', 'blueviolet','white'];
     arr.forEach(element => {
         document.getElementById(element).addEventListener('click', function () { changeDrawingColor(element) });
         console.log(element);
@@ -51,22 +51,4 @@ document.getElementById("clear").addEventListener('click', clearCanvas);
 function clearCanvas() {
     location.reload();
 }
-document.getElementById("erase").addEventListener('click', erase);
-function erase() {
-    
-    canvas.addEventListener('mousemove', eraseDots);
-}
-// function eraseDots(e) {
-//     if (mouseDown) {
-//         canvas.removeEventListener('mousemove', makeDot);
-//         var myDots = document.createElement("span");
-//         myDots.className += 'erase';
-//         canvas.appendChild(myDots);
-//         myDots.style.top = e.pageY - e.target.offsetTop + "px";
-//         myDots.style.left = e.pageX - e.target.offsetLeft + "px";
-//     }
-//     else {
-//         canvas.addEventListener('mousemove', makeDot);
-//         canvas.removeEventListener('mousemove', eraseDots);
-//     }
-// }
+

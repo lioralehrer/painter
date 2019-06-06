@@ -25,6 +25,11 @@ body{
 #blueviolet{
     background-color: blueviolet;
 }
+#white{
+    color:black;
+    align-content: center;
+    background-color: white;
+}
 
 #canvas{
     height: 600px;
@@ -64,11 +69,4 @@ body{
     display: inline-block;
      border-radius: 50%;
 }
-.erase{
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    display: inline-block;
-     border-radius: 50%;
-     background-color: white;
-}
+
